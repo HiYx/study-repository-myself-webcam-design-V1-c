@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <drawable name="white">#FFFFFF</drawable><drawable name="Black">#000000</drawable><drawable name="SkyBlue">#87CEEB</drawable><drawable name="Azure">#F0FFFF</drawable><drawable name="Yellow">#FFFF00</drawable><drawable name="alpha">#00000000</drawable>
+      
+      
+       
+      <drawable name="MidnightBlue">#191970</drawable> 
+      <drawable name="DarkBlue">#00008B</drawable> 
+     
+      <drawable name="DeepSkyBlue">#00BFFF</drawable> 
+</resources>

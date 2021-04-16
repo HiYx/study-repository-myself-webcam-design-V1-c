@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HDUSBCamera</string>
+    <string name="str_Luminance">Luminance</string>
+    <string name="str_contrast">contrast</string>
+    <string name="str_saturation">saturation</string>
+    <string name="str_tone">tone</string>
+     <string name="str_exposure">exposure</string>
+    <string name="str_Gamma">Gamma</string>
+    <string name="str_Gain">Gain</string>
+    <string name="str_PowerLineFrequency">PowerLineFrequency</string>
+    <string name="str_Sharpness">Sharpness</string>
+    <string name="str_BacklightCompensation">BacklightCompensation</string>
+    <string name="str_WhiteBalance">WhiteBalance</string>
+    <string name="str_default_value">50</string>
+    <string name="back">Back</string>
+    <string name="save">save</string>
+    <string name="default_value">default</string>
+    <string name="home">Home</string>
+    <string name="record">Record</string>
+    <string name="menu">menu</string>
+    <string name="button_save">sava preference</string>
+    <string name="button_default">recorve default</string>
+
+</resources>

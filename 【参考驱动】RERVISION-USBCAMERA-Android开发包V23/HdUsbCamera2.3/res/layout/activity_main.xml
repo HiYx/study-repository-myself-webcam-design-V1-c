@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <FrameLayout
+        android:id="@+id/cp1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:id="@+id/right_linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="#90000000"
+        android:gravity="center"
+        android:layout_gravity="right|center"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ImageButton
+            android:id="@+id/set"
+            android:layout_width="64dp"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:background="@drawable/img_button"
+            android:src="@drawable/camera_settings" />
+
+        <ImageButton
+            android:id="@+id/pick"
+            android:layout_width="64dp"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:background="@drawable/img_button"
+            android:src="@drawable/camera_picture" />
+
+        <ImageButton
+            android:id="@+id/record"
+            android:layout_width="64dp"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:background="@drawable/img_button"
+            android:src="@drawable/launcher_record" />
+
+
+        <ImageButton
+            android:id="@+id/exit"
+            android:layout_width="64dp"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:background="@drawable/img_button"
+            android:src="@drawable/delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ctrlp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginLeft="72dp"
+        android:orientation="vertical" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/leftLay"
+        android:layout_width="71dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center">
+        <Button
+            android:id="@+id/solution_button"
+            android:textSize="10sp"
+            android:text="拍照尺寸"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:layout_marginTop="20dp"
+            android:id="@+id/solution_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></ListView>
+        </LinearLayout>
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+

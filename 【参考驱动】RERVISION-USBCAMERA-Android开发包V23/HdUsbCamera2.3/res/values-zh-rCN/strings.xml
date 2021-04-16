@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">USB高清摄像</string>
+    <string name="str_Luminance">亮度</string>
+    <string name="str_contrast">对比度</string>
+    <string name="str_saturation">饱和度</string>
+    <string name="str_tone">色调</string>
+     <string name="str_exposure">曝光度</string>
+    <string name="str_Gamma">伽马</string>
+    <string name="str_Gain">增益</string>
+    <string name="str_PowerLineFrequency">防闪烁</string>
+    <string name="str_Sharpness">清晰度</string>
+    <string name="str_BacklightCompensation">逆光对比</string>
+    <string name="str_WhiteBalance">白平衡</string>
+    <string name="str_default_value">50</string>
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+    <string name="default_value">默认</string>
+    <string name="home">主页</string>
+    <string name="record">记录</string>
+    <string name="menu">菜单</string>
+     <string name="button_save">保存设置</string>
+    <string name="button_default">恢复默认</string>
+    
+
+</resources>

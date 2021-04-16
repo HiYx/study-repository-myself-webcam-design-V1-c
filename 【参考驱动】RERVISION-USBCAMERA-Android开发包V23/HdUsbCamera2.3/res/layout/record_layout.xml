@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ExpandableListView
+            android:id="@+id/RecordMainls"
+            android:divider="#ADD8E6"
+            android:dividerHeight="1px"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+        </ExpandableListView>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="1dp"
+            android:background="#00BFFF" />
+
+        <include
+            layout="@layout/status_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="1dp"
+        android:background="#FFFFF0" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageButton
+            android:id="@+id/StartRecord"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/vd_start" />
+
+        <ImageButton
+            android:id="@+id/PauseRecord"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/vd_pause" />
+
+        <ImageButton
+            android:id="@+id/StopRecord"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/vd_stop" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

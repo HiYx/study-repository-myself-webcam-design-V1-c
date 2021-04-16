@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="Record_main_items">
+    <item>分辨率</item>
+   </string-array>
+    <string-array name="Record_expand_items">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="solution_item">
+        <item>320 * 240</item>
+        <item>640 * 480</item>
+        <item>800 * 600</item>
+        <item>1280 * 720</item>
+        <item>1280 * 1024</item>
+        <item>1600 * 1200</item>
+        <item>1920 * 1080</item>
+        <item>2048 * 1536</item>
+        <item>2592 * 1944</item>
+        <item>3264 * 2448</item>
+    </string-array>
+    <string-array name="picture_items">
+        <item>QVGA</item>
+        <item>VGA</item>
+        <item>SVGA</item>
+        <item>1MP</item>
+        <item>1.2MP</item>
+        <item>1.3MP</item>
+        <item>2MP</item>
+        <item>2.1MP</item>
+        <item>3MP</item>
+        <item>5MP</item>
+        <item>8MP</item>
+    </string-array>
+
+</resources>
